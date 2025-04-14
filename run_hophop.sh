@@ -70,6 +70,9 @@ install_packages "${TOOLS_BASIC[@]}"
 echo "Installing extra tools..."
 install_packages "${TOOLS_EXTRA[@]}"
 
+echo "Installing KDE-Plasma..."
+install_packages "${PLASMA[@]}"
+
 echo "Installing gaming stuff..."
 install_packages "${GAMING[@]}"
 
