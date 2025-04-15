@@ -73,11 +73,11 @@ install_packages "${TOOLS_EXTRA[@]}"
 echo "Installing KDE-Plasma..."
 install_packages "${PLASMA[@]}"
 
-echo "Installing gaming stuff..."
-install_packages "${GAMING[@]}"
-
 echo "Installing fonts..."
 install_packages "${FONTS[@]}"
+
+echo "Installing gaming stuff..."
+install_packages "${GAMING[@]}"
 
 # Enable services
 echo "Configuring services..."
