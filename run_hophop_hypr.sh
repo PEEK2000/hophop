@@ -61,23 +61,9 @@ else
 fi
 
 # Install packages by category
-echo "Installing system utilities..."
-install_packages "${SYSTEM_UTILS[@]}"
-
-echo "Installing basic tools..."
-install_packages "${TOOLS_BASIC[@]}"
-
-echo "Installing extra tools..."
-install_packages "${TOOLS_EXTRA[@]}"
-
-echo "Installing fonts..."
-install_packages "${FONTS[@]}"
 
 echo "Installing Hyprland packages..."
 install_packages "${HYPRLAND[@]}"
-
-echo "Installing gaming stuff..."
-install_packages "${GAMING[@]}"
 
 # Enable services
 echo "Configuring services..."
