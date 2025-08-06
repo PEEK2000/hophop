@@ -1,5 +1,6 @@
 FLATPAKS=(
   "spotify"
+  "pinta"
 )
 
 for pak in "${FLATPAKS[@]}"; do
