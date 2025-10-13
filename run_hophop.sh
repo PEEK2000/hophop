@@ -70,11 +70,15 @@ install_packages "${TOOLS_BASIC[@]}"
 echo "Installing extra tools..."
 install_packages "${TOOLS_EXTRA[@]}"
 
+echo "Installing gaming stuff..."
+install_packages "${GAMING[@]}"
+
+echo "Installing tweaks..."
+install_packages "${TWEAKS[@]}"
+
 echo "Installing fonts..."
 install_packages "${FONTS[@]}"
 
-echo "Installing gaming stuff..."
-install_packages "${GAMING[@]}"
 
 # Enable services
 echo "Configuring services..."
